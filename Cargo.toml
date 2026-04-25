@@ -1,5 +1,5 @@
 [package]
-name = "calendar"
+name = "acg-calendar"
 version = "0.1.0"
 edition = "2021"
 authors = ["Keo Cheung <keocheung@outlook.com>"]

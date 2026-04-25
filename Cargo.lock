@@ -3,6 +3,23 @@
 version = 4
 
 [[package]]
+name = "acg-calendar"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "calcard",
+ "chrono",
+ "getrandom 0.3.4",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tokio",
+ "url",
+ "worker",
+ "worker-macros",
+]
+
+[[package]]
 name = "ahash"
 version = "0.8.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -133,23 +150,6 @@ dependencies = [
  "serde",
  "serde_json",
  "uuid",
-]
-
-[[package]]
-name = "calendar"
-version = "0.1.0"
-dependencies = [
- "axum",
- "calcard",
- "chrono",
- "getrandom 0.3.4",
- "reqwest",
- "serde",
- "serde_json",
- "tokio",
- "url",
- "worker",
- "worker-macros",
 ]
 
 [[package]]
