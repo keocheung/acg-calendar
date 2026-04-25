@@ -5,6 +5,7 @@ edition = "2021"
 authors = ["Keo Cheung <keocheung@outlook.com>"]
 
 [lib]
+name = "calendar"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
